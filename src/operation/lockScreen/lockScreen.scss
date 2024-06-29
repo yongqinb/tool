@@ -1,0 +1,27 @@
+.lockScreen{
+    .volumeSlider{
+        .ant-slider-rail{
+            height: 14px;
+        }
+        .ant-slider-track{
+            height: 14px;
+        }
+        .ant-slider-handle:focus::after{
+            width: 20px;
+            height: 20px;
+        }
+        .ant-slider-handle::after{
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .volumeSlider{
+        margin-bottom: 30px;
+    }
+
+    .lockScreentext{
+        font-size: 18px;
+        color: #666;
+    }
+}
